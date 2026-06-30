@@ -15,6 +15,21 @@
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "usePublicURLFromServer": true
+        },
+        {
+            "name": "Production",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Production",
+            "environmentName": "Production",
+            "tenant": "f97b4eb3-5750-4b5b-90a7-9c2feb3c88d1",
+            "startupObjectType": "Page",
+            "startupObjectId": 22,
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "usePublicURLFromServer": true
         }
     ]
 }
