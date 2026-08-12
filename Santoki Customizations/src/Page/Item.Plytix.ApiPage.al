@@ -36,6 +36,7 @@ page 50211 "Item API Plytix"
                 field(tariffNo; Rec."Tariff No.") { Caption = 'Tariff No.'; }
                 field(countryRegionOfOriginCode; Rec."Country/Region of Origin Code") { Caption = 'Country/Region of Origin Code'; }
                 field(unitPrice; Rec."Unit Price") { Caption = 'Unit Price'; }
+                field(msrp; Rec.MSRP) { Caption = 'MSRP'; }
                 field(excludeFromPlytix; Rec."Exclude from Plytix") { Caption = 'Exclude from Plytix'; }
 
                 // --- Unit of measure dimensions, flattened from "Item Unit of Measure" ---
