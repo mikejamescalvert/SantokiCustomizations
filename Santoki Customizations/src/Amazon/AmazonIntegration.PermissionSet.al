@@ -21,6 +21,8 @@ permissionset 50229 "Amazon Integration"
         codeunit "Amazon Order Processing" = X,
         codeunit "Amazon Order Job" = X,
         page "Amazon Order Inbox API" = X,
+        page "Amazon SKU Mapping API" = X,
+        page "Amazon Fee Mapping API" = X,
         page "Amazon Order Inbox" = X,
         page "Amazon Staged Orders" = X,
         page "Amazon Staged Order" = X,

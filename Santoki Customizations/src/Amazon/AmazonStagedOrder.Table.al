@@ -131,7 +131,7 @@ table 50215 "Amazon Staged Order"
         field(40; Status; Enum "Amazon Staging Status")
         {
             Caption = 'Status';
-            ToolTip = 'Specifies where the order is: Received, Ready, In Progress, Posted (sales order created), Error, On Hold or Cancelled.';
+            ToolTip = 'Specifies where the order is: Received, Ready, In Progress, Order Created, Error, On Hold or Cancelled.';
         }
         field(41; "Status Message"; Text[2048])
         {
