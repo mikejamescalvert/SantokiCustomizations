@@ -48,7 +48,7 @@ page 50221 "Amazon Staged Orders"
             {
                 Caption = 'Process Now';
                 Image = Start;
-                ToolTip = 'Read new deliveries from Amazon and process received and ready orders now, instead of waiting for the job queue.';
+                ToolTip = 'Read new deliveries from Amazon and process received and ready orders now, instead of waiting for the job queue. If a run is already going, this says so and stops.';
 
                 trigger OnAction()
                 begin
